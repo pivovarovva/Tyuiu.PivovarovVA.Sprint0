@@ -1,22 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tyuiu.PivovarovVA.Sprint.Task4.V0.Lib;
 
-namespace Tyuiu.PivovarovVA.Sprint.Task4.V0
+namespace Tyuiu.PivovarovVA.Sprint0.Task2.V0
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            // Вызовы методов из DataService
             Console.WriteLine(DataService.Addition(1, 5));
             Console.WriteLine(DataService.Subtraction(15, 5));
             Console.WriteLine(DataService.Multiplication(10, 10));
             Console.WriteLine(DataService.Division(5, 5));
 
-            Console.ReadKey();
+            Console.ReadKey(); // Ожидание нажатия клавиши
         }
     }
 }
