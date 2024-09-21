@@ -1,7 +1,7 @@
 ﻿using System;
 using Tyuiu.PivovarovVA.Sprint.Task4.V0.Lib;
 
-namespace Tyuiu.PivovarovVA.Sprint0.Task2.V0
+namespace Tyuiu.PivovarovVA.Sprint0.Task4.V0
 {
     public class Program
     {
