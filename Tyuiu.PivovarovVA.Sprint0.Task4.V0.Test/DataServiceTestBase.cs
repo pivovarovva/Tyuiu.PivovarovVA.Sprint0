@@ -22,5 +22,10 @@ namespace Tyuiu.PivovarovVA.Sprint.Task4.V0.Test
         {
             SetDataServiceTest(new DataService());
         }
+
+        private void SetDataServiceTest(DataService dataService)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
